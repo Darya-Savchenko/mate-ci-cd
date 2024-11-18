@@ -4,7 +4,7 @@ name: CI/CD practice
 run-name: ${{ github.actor }} is testing out GitHub Actions
 
 env:
-  GITHUB_ACTIONS: ${{ GITHUB_ACTIONS }}
+  GITHUB_ACTIONS: "running"
 
 # Controls when the workflow will run
 on:
